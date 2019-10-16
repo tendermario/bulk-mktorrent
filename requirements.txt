@@ -1,0 +1,16 @@
+# This follows node.js's package.json/lock pattern.
+# This is the main dependencies, the requirements.lock
+# is the frozen dependencies.
+#
+# Installing from this file works, but if it doesn't,
+# you can install from the lock file which is deterministic as it
+# "worked on my machine".
+#
+# Python version: 3.7.4
+#
+# To install, simply:
+#
+# pip install -r requirments.txt
+#
+docopt
+python-dotenv
