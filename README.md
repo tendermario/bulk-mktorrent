@@ -25,6 +25,7 @@ I'm going to pretend you have no python experience.
 5. Create a virtualenv for this repo.
 6. Enter the virtualenv.
 7. Install the requirements.
+8. Copy .env.example to .env
 
 ```
 python --version
@@ -35,7 +36,10 @@ cd bulk-mktorrent
 virtualenv -p python3 .venv
 source .venv/bin/activate
 pip install -r requirements.txt
+cp .env.example .env
 ```
+
+9. *update `.env` file to have YOUR announce URL.*
 
 ## Notes:
 
