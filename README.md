@@ -1,9 +1,5 @@
 <h1 align="center">
-	<br>
-	<img width="400" src="media/logo.png" alt="bulk-mktorrent">
-	<br>
-	<br>
-	<br>
+	<img src="media/logo.png" alt="bulk-mktorrent">
 </h1>
 
 # bulk-mktorrent
