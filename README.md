@@ -1,4 +1,13 @@
+<h1 align="center">
+	<br>
+	<img width="400" src="media/logo.png" alt="bulk-mktorrent">
+	<br>
+	<br>
+	<br>
+</h1>
+
 # bulk-mktorrent
+
 
 "Finally, I can reup all my shit, again!"
 
@@ -53,3 +62,6 @@ handy command:
 - `-o` in mktorrent's cli tool does not seem to work to target a directory for the torrents output location, so unfortunately, these torrents will be created in the current directory for now. Maybe we can move all these files after they are created one day.
 
 - Probably doesn't work with things with double quotations in the names right now.
+
+- Why only first level? This makes us avoid making a torrent for CD1, CD2, a
+nd suits my needs. If you think having multiple levels would be nice, feel free to make a PR.
