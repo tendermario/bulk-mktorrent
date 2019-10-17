@@ -61,3 +61,5 @@ handy command:
 
 - Why only first level? This makes us avoid making a torrent for CD1, CD2, a
 nd suits my needs. If you think having multiple levels would be nice, feel free to make a PR.
+
+- Logo made from 30 seconds of tinkering with, and therefore courtesy of http://recursivedrawing.com
