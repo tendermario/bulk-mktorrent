@@ -2,9 +2,8 @@
 
 "Finally, I can reup all my shit, again!"
 
-Usage:
-    `main.py <rootdir>`
-
+## Usage:
+    `main.py <rootdir>
 
 I recommend running this from the directory that you want the torrent files
 to be in. E.g.:
@@ -12,6 +11,30 @@ to be in. E.g.:
 ```
   cd ~/mytorrentfiles
   ~/bulk-mktorrent/main.py ~/mymusicfolder/
+```
+
+## Install
+
+I'm going to pretend you have no python experience.
+
+0. Install mktorrent: https://github.com/Rudde/mktorrent
+1. Check which python you have.
+2. Install virtualenv.
+3. Clone this repo.
+4. Go into this repo.
+5. Create a virtualenv for this repo.
+6. Enter the virtualenv.
+7. Install the requirements.
+
+```
+python --version
+python3 --version
+pip install virtualenv
+git clone git@github.com:tendermario/bulk-mktorrent.git
+cd bulk-mktorrent
+virtualenv -p python3 .venv
+source .venv/bin/activate
+pip install -r requirements.txt
 ```
 
 ## Notes:
