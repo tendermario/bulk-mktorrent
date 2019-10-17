@@ -3,7 +3,7 @@
 "Finally, I can reup all my shit, again!"
 
 ## Usage:
-    `main.py <rootdir>
+    main.py <rootdir>
 
 I recommend running this from the directory that you want the torrent files
 to be in. E.g.:
