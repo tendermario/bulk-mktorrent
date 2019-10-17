@@ -5,6 +5,8 @@
 ## Usage:
     main.py <rootdir>
 
+This will take all folders inside <rootdir> and create a torrent for each one. Does not go deeper than the first level.
+
 I recommend running this from the directory that you want the torrent files
 to be in. E.g.:
 
