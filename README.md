@@ -34,6 +34,8 @@ I'm going to pretend you have no python experience.
 7. Install the requirements.
 8. Copy .env.example to .env
 
+Steps 1-8:
+
 ```
 python --version
 python3 --version
