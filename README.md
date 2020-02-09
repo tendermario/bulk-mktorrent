@@ -50,8 +50,7 @@ cp .env.example .env
 
 ## Notes:
 
-- If you get stuck with a ton of .torrent files you want to delete, use the
-handy command:
+- If you mess up and get stuck with a ton of .torrent files and want to delete them all from the current directory, use the handy command:
 
 `rm *.torrent`
 
@@ -59,7 +58,6 @@ handy command:
 
 - Probably doesn't work with things with double quotations in the names right now.
 
-- Why only first level? This makes us avoid making a torrent for CD1, CD2, a
-nd suits my needs. If you think having multiple levels would be nice, feel free to make a PR.
+- Why only first level? This makes us avoid making a torrent for CD1, CD2, and suits my needs. If you think having multiple levels would be nice, feel free to make a PR.
 
-- Logo made from 30 seconds of tinkering with, and therefore courtesy of http://recursivedrawing.com
+- Logo made from 30 seconds of tinkering with, and therefore courtesy of, http://recursivedrawing.com
