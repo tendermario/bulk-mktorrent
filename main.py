@@ -15,15 +15,11 @@ from dotenv import load_dotenv
 from docopt import docopt
 
 
-def getDirs(path):
-    dirs = []
-    for item in os.listdir(rootdir):
-        dir = os.path.join(rootdir, item)
-        if os.path.isdir(dir):
-            dirs.append(dir)
-    return dirs
+def get_dirs(path: str) -> List[str]:
+    """Returns a list of sub-directories from a root directory (non-recursively)."""
+    return [os.join(root, i) for i in os.listdir(root) if os.isdir(i)]
 
-def makeTorrent(path, ANNOUNCE_URL):
+def make_torrent(path, ANNOUNCE_URL):
     print(f'making a torrent for {path}')
     myCmd = f'mktorrent -l 18 -p -s OPS -a {ANNOUNCE_URL} "{path}"'
     os.system(myCmd)
@@ -38,7 +34,7 @@ if __name__ == "__main__":
     if not ANNOUNCE_URL:
         raise "Need an announce url. Set this in a .env file."
 
-    dirs = getDirs(rootdir)
+    dirs = get_dirs(rootdir)
 
-    for dir in dirs:
-        makeTorrent(dir, ANNOUNCE_URL)
+    for directory in dirs:
+        make_torrent(directory, ANNOUNCE_URL)
