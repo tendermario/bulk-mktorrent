@@ -15,7 +15,7 @@ from dotenv import load_dotenv
 from docopt import docopt
 
 
-def get_dirs(path: str) -> List[str]:
+def get_dirs(root: str) -> List[str]:
     """Returns a list of sub-directories from a root directory (non-recursively)."""
     return [os.join(root, i) for i in os.listdir(root) if os.isdir(i)]
 
