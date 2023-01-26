@@ -1,5 +1,7 @@
 #!/usr/bin/env python3
 
+# I am using Python 3.11 at the time of writing this script
+
 """
 
 Usage:

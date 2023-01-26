@@ -20,9 +20,15 @@ to be in. E.g.:
   ~/bulk-mktorrent/main.py ~/mymusicfolder/
 ```
 
-## Install
+## Dumb install
 
-I'm going to pretend you have no python experience.
+1. Make sure you have python 3 on your machine.
+2. Clone this repo.
+3. `pip install -r requirements.txt`
+4. Create a `.env` file with your announceurl after this (no spaces) `ANNOUNCE_URL=`
+5. run `./main.py` (this installer will now attempt to install mktorrent for you if you don't have it) 
+
+## Proper install
 
 0. **Install mktorrent:** https://github.com/pobrn/mktorrent
 1. Check which python you have.
