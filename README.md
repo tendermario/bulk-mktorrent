@@ -24,7 +24,7 @@ to be in. E.g.:
 
 I'm going to pretend you have no python experience.
 
-0. **Install mktorrent:** https://github.com/Rudde/mktorrent
+0. **Install mktorrent:** https://github.com/pobrn/mktorrent
 1. Check which python you have.
 2. Install virtualenv.
 3. Clone this repo.
